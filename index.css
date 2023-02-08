@@ -1,0 +1,81 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #f7faff;
+}
+
+navbar-brand {
+    font-weight: bold;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Manrope';
+}
+
+span {
+    color: #3C9379;
+}
+
+.btn {
+    color: white;
+    background-color: #3C9379;
+}
+
+.btn-outline {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 650px;
+}
+
+.col {
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.3;
+    font-weight: bold;
+}
+
+.img-fluid {
+    justify-content: space-around;
+    width: 120px;
+    height: 20px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.col-span {
+    width: 200px;
+}
+
+@media screen and (max-width: 922px) {
+    h1 {
+        margin-top: 75px;
+        margin-right: -75px auto;
+        text-align: center;
+    }
+
+    .shoping {
+        align-items: center;
+    }
+
+    .p1 {
+        text-align: center;
+    }
+
+    .img-fluid {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .me-5 {
+        margin-right: 500px;
+    }
+
+}   
